@@ -1,0 +1,95 @@
+.Heading{
+    min-height: 72vh !important;
+}
+.Heading .slider {
+    height: 70vh;
+    position: relative;
+    border-radius: 5px;
+    z-index: 2 !important;
+    cursor: grab;
+}
+
+.Heading .slider img {
+    border-radius: 5px;
+    z-index: 1px !important;
+}
+
+.Heading .slider>div {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    align-items: flex-start;
+    width: 600px;
+   
+}
+.Heading .swiper-pagination-bullet{
+    background-color:rgba(0, 0, 0, 0.507) !important;
+}
+.Heading .swiper-pagination-bullet-active{
+    background-color: var(--main-color) !important;
+}
+
+.Heading .slider>div b {
+    color: #39245F;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 42px;
+    width: 450px;
+    height: 151.77999877929688px;
+    top: 37px;
+    opacity: 1;
+    line-height: 50.4px;
+    letter-spacing: -1.4px;
+    vertical-align: middle;
+}
+
+.Heading .slider>div >p {
+    width: 500px;
+    color: #030712;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+    margin: 0px !important;
+}
+
+
+.Heading .slider>div div button{
+    color: var(--bg-color) !important;
+    background-color: var(--main-color) !important ;
+    font-weight:bold !important  ;
+    
+}
+.Heading .slider>div div div  span{
+    color: #DC2626;
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 29px;
+        margin-right: 5px !important;
+        line-height: 23.6px;
+        letter-spacing: -0.56px;
+        vertical-align: middle;
+}
+.Heading .slider>div div div del{
+
+    color: #111827;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 19.6px;
+        line-height: 10.6px;
+        letter-spacing: -0.56px;
+        vertical-align: middle;
+        text-decoration: line-through;
+   
+}
+.Heading .slider>div div div p{
+    margin-top: 8px  !important;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: -0.32px;
+        vertical-align: middle;
+        color: var(--small-text-color);
+   
+}

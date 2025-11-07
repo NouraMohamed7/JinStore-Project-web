@@ -1,0 +1,73 @@
+.LogIn .container {
+    padding: 20px !important;
+}
+
+.LogIn .container>div:nth-of-type(1) b {
+    color: #111827;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+}
+
+.LogIn .container>div:nth-of-type(1) b:nth-of-type(1) a {
+    color: #9CA3AF;
+    text-decoration: none;
+
+}
+
+.LogIn .container>div:nth-of-type(2) form>p:nth-of-type(1) {
+    width: 440px !important;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: -0.32px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.LogIn .container>div:nth-of-type(2) form>p:nth-of-type(2) {
+    width: 450px !important;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+}
+
+.LogIn .container>div:nth-of-type(2) form>p:nth-of-type(2) span {
+    color: var(--main-color);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+    display: flex !important;
+}
+
+.LogIn .container>div:nth-of-type(2) .checkbox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+
+
+}
+
+.LogIn .container .checkbox input {
+    cursor: pointer;
+}
+
+.LogIn .container .checkbox label {
+    cursor: pointer;
+}
+
+.LogIn .container form {
+    width: 500px !important;
+}
+.LogIn .w-100.btn.btn-success {
+    background-color: var(--main-color) !important;
+}

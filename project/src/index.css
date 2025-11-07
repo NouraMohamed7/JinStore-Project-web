@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'main-font';
+  src: url(./assets/fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+@font-face {
+  font-family: 'second-font';
+  src: url(./assets/fonts/Barlow/Barlow-Regular.ttf);
+}
+:root{
+  --main-font:'main-font','sans-serif';
+  --second-font:'second-font','sans-serif';
+  --main-color:#634C9F;
+  --span-color:#DC2626;
+  --text-color:#111827;
+  --small-text-color:#6B7280;
+  --bg-color:#FFFFFF;
+  --bgSec-color:#DBD4E6;
+  --cart-btn-color:#16A34A;;
+
+
+}
+p{
+  margin: 0 !important;
+}
+
+main{
+font-family: var(--main-font);
+color: var(--text-color);
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex-dir{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

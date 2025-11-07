@@ -1,0 +1,120 @@
+.Logo {
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
+    padding: 10px 0;
+    margin: 3px 0;
+    position: relative;
+}
+
+.Logo>div>div:nth-of-type(2) div,
+.Logo>div>div:nth-of-type(4) div {
+    align-items: center;
+    justify-content: center;
+    transform: translateY(3.5px) !important;
+
+}
+
+.Logo>div>div:nth-of-type(2) div span,
+.Logo>div>div:nth-of-type(4) div span {
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 0px;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+
+}
+
+.Logo>div>div:nth-of-type(2) div p,
+.Logo>div>div:nth-of-type(4) div p  {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: .5px;
+    letter-spacing: -0.32px;
+    vertical-align: middle;
+    cursor: pointer;
+
+}
+.Logo>div>div:nth-of-type(4) div p a{
+        color: var(--small-text-color);
+        text-decoration: none;
+}
+
+
+.Logo>div>div:nth-of-type(2) .icon,
+.Logo>div>div:nth-of-type(4) .icon {
+    font-size: 25px;
+    line-height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.Logo>div>.search {
+    width: 60%;
+    height: 38px;
+    position: relative;
+}
+
+.Logo>div>.search input {
+    width: 100%;
+    height: 100%;
+    padding: 5px 10px;
+    border: none;
+    background-color: #F3F4F6;
+    color: #6B7280;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+
+}
+
+.Logo>div>.search .icon-search {
+    position: absolute;
+    right: 10px;
+    font-size: 20px;
+
+
+}
+
+
+
+.Logo>div>div:nth-of-type(5) .icon-cart {
+    font-size: 25px;
+    line-height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    stroke-width: 1px !important;
+    position: relative;
+
+}
+
+.Logo>div>div:nth-of-type(5) .icon-wishlist {
+    font-size: 22px;
+    line-height: 10px;
+    margin-right: 8px;
+    cursor: pointer;
+    stroke-width: 1px !important;
+    position: relative;
+
+}
+.Logo>div>div:nth-of-type(5) div{
+    position: relative;
+}
+
+.Logo>div>div:nth-of-type(5) div span,
+.Logo>div>div:nth-of-type(5) div span {
+    position: absolute;
+     width: 15px;
+      height: 15px;
+      font-size: 11px;
+      color: #fff;
+      background-color: red;
+      border: 2px solid red;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      right: -2px;
+      top: -2.5px;
+}

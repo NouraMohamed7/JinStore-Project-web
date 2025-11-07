@@ -1,0 +1,10 @@
+.Shop {
+    padding: 10px;
+}
+.Shop .cont-products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
