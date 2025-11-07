@@ -32,6 +32,7 @@ p{
 main{
 font-family: var(--main-font);
 color: var(--text-color);
+overflow: hidden;
 
 }
 

@@ -5,7 +5,7 @@ import Product from '../../common/Product/Product';
 function Shop() {
   return (
     <div className="Shop  ">
-      <div className="cont-products flex gap-2">
+      <div className="cont-products flex gap-3">
         <Product />
         <Product />
         <Product />

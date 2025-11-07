@@ -1,5 +1,5 @@
 .product {
-    width: 283px !important;
+    width: 220px !important;
     background-color: var(--bg-color);
     margin: 4px;
 }
@@ -14,7 +14,7 @@
 .product .img-product .process-product {
     position: absolute;
     right: 10px;
-    top: 10px;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     width: 95%;
@@ -51,7 +51,8 @@
     color: var(--text-color);
     font-weight: 500;
     font-style: Medium;
-    font-size: 16px;
+    width: 100%;
+    font-size: 15px;
     line-height: 16.9px;
     letter-spacing: -0.26px;
     vertical-align: middle;

@@ -7,6 +7,7 @@ import LogIn from "./components/LogIn/LogIn";
 import Home from "./components/Home/Home";
 import Shop from "./components/Shop/Shop";
 import ProductDetails from "./components/ProductDetails/ProductDetails";
+import ProductDashboard from "./dashboards/ProductDashboard/ProductDashboard";
 
 function App() {
   const router = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
         {
           path: "/productdetails",
           element: <ProductDetails/>,
+        },
+        {
+          path: "/productdashboard",
+          element: <ProductDashboard/>,
         },
       ],
     },
